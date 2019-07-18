@@ -105,4 +105,41 @@ header {
     overflow: hidden;
     background-position-y: 93%; /*con esto es posible desplazar la imagen hacía arriba o hacía abajo*/
 }
+/*INFORMACIÓN*/
+.second-section{
+    background-color: #f7b617;
+    position: relative;
+    height: 40rem;
+    width: 81.5rem;
+    
+}
+
+.second-card{
+    position: relative;
+    background-color:#f7b617;
+    background-size: cover;
+    height: 30rem;
+    width: 70rem;
+    padding: 20px;
+    border-style: solid;
+    border-color: white;
+    bottom: -60px;
+}
+.cel{
+    position: relative;
+    left: 150px;
+    bottom: 330px;
+   
+
+}
+/*INFORMACIÓN: TEXTOS*/
+.descarga-app, .text-descarga{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    color: white;
+    position: relative;
+    left: 650px;
+    bottom: -25px;
+
+}
 }
