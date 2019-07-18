@@ -8,9 +8,27 @@ display: table;
 
 }
 /*Navbar*/
-header{
+header {
     color: white;
-    
+
+}
+
+.logo-amarillo{
+    position: relative;
+    left: 50px;
+    bottom: -20px;
+}
+
+.menu-hero li{
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    color:#2b2b2b;
+    bottom: 30px;
+    left: 800px;
+    display: inline;
+    padding: 30px;
+
+
 }
 /*Primera página: Hero*/
 @media (min-width: 1281px) {
