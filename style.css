@@ -123,6 +123,7 @@ header {
     padding: 20px;
     border-style: solid;
     border-color: white;
+    border-left-color: #f7b617;
     bottom: -60px;
 }
 .cel{
@@ -141,5 +142,42 @@ header {
     left: 650px;
     bottom: -25px;
 
+}
+
+/*Conductor*/
+.conductor-section{
+    background-image: url("img/conduce.jpg");
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    position: relative;
+    height: 40rem;
+    width: 81.5rem;
+}
+.conductor-black{
+    background-color: black;
+    opacity: 0.4;
+    position: relative;
+    width: 51.5rem;
+    height: 90rem;
+    left: 800px;
+    bottom: 34px;
+}
+.conduce-cq{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 35px;
+    opacity: 1.5;
+}
+.conduce-text{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 23px;
+}
+
+.conduce-cq, .conduce-text{
+    position: relative;
+    bottom: -100px;
+    left: 30px;
 }
 }
