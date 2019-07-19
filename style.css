@@ -156,7 +156,7 @@ header {
 }
 .conductor-black{
     background-color: black;
-    opacity: 0.4;
+    background-color: rgba(0, 0, 0, 0.5);/* Solo el fondo del contenedor tendrá una opacidad del 50%.*/
     position: relative;
     width: 51.5rem;
     height: 90rem;
@@ -167,7 +167,7 @@ header {
     font-family: 'Roboto', sans-serif;
     color: white;
     font-size: 35px;
-    opacity: 1.5;
+   
 }
 .conduce-text{
     font-family: 'Roboto', sans-serif;
@@ -177,7 +177,22 @@ header {
 
 .conduce-cq, .conduce-text{
     position: relative;
-    bottom: -100px;
+    bottom: -200px;
     left: 30px;
+}
+
+.conductor-c{
+    position: relative;
+    bottom: -210px;
+    left: 25.9px;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background-color: #f7b617;
+    border-radius: 6px;
+    border: 2px solid #f7b617;
 }
 }
