@@ -195,4 +195,83 @@ header {
     border-radius: 6px;
     border: 2px solid #f7b617;
 }
+/*TARIFA*/
+.tarifa-section{
+    background-color: #f7b617;
+    height: 40rem;
+    width: 81.5rem;
+    position: relative;
+    bottom: 20px;
+}
+.consultar-tarifa{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 35px;
+}
+
+.con-tarifa{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 23px;
+}
+.consultar-tarifa, .con-tarifa{
+    position: relative;
+    left: 130px;
+    bottom: -130px;
+}
+
+#partida{
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    width: 400px;
+    font-weight: 600;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    color:white;
+    background-color: #f7b617;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+::placeholder {
+    color: white;
+  }
+
+#destino{
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    width: 400px;
+    font-weight: 600;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    color:white;
+    background-color: #f7b617;
+    border-radius: 5px;
+    border: 1px solid white;
+    
+}
+#ruta-tarifa{
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    color:black;
+    background-color: white;
+    border-radius: 6px;
+    border: 2px solid white;
+
+}
+#partida, #destino{
+    position: relative;
+    left: 130px;
+    bottom: -150px;
+}
+#ruta-tarifa{
+    position: relative;
+    left: 280px;
+    bottom: -170px;
+}
 }
