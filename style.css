@@ -307,14 +307,28 @@ header {
 
 
 .intro-usuario{
-    background-color:aqua;
-  width:300px;
+    background-color:rgb(113, 190, 167);
+  width:600px;
+  height: 500px;
   padding: 10px 20px;
   margin: 20% auto;
   position: relative;
+  bottom: 190px;
+}
+.input-iniciar{
+    background-color: white;
+    width: 280px;
+    height: 260px;
+    position: relative;
+    left: 170px;
+    bottom: -18px;
+}
+.cerrar{
+    position: relative;
+    left: 590px;
 }
 .modal{
-    background-color: rgba(0,0,0,.8);
+    background-color: rgba(0,0,0,0.6);
     position:fixed;
     top:0;
     right:0;
@@ -336,7 +350,14 @@ header {
    z-index: 999;
    transition:all 1s;
   }
-
+.usuario{
+    position: relative;
+}
+.usuario{
+    position: relative;
+   left: 210px;
+    display: block;
+}
 
 
 }
