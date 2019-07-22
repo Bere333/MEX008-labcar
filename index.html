@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <title>Labcar</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
 <header>
@@ -16,7 +16,28 @@
     <ul class="menu-hero">
         <li>Viaja </li>
         <li>Conduce</li>
-        <li>Iniciar sesión</li>
+        <li> <a href="#iniciarSesion" class="popup-link" >Iniciar sesión</a> 
+        <div id="iniciarSesion" class="modal">
+            <div class="intro-usuario">
+                <a href="#" class="cerrar">X</a>
+                <img src="img/usuario.png" alt="" class="usuario" width="180" height="180">
+                <hr color="white" size="1">
+                <div class="input-iniciar">
+                    <div class="dusuario">
+                        <img src="img/i_usuario.png" alt="" class="i-usuario" width="20" height="20">
+                    </div>
+                <input id="username" type="text" placeholder="Username">
+                <div class="candado">
+                    <img src="img/candadito.png" alt="" class="candadito" width="20" height="20">
+                </div>
+                <input id="password" type="text" placeholder="Password">
+                <button class="loging">LOGING</button>
+                <p class="forgot">Forgot password? Click here</p>
+            </div>
+
+            </div>
+        </div>
+        </li>
     </ul>
 </header>
 
@@ -26,8 +47,42 @@
                 <h1 class="font-first">Disfruta del viaje<br>Eres dueño de tu tiempo</h1>
                 <h3 class="font-first">Viaja con </h3>
                 <img src="img/logo-blanco.png" class="img-logo-white" alt="">
-                <button class="registro">REGÍSTRATE</button>
-                <h6 class="font-sec">O bien</h6>
+                <button class="registro"><a href="#registrarse" class="registro-link">REGÍSTRARSE</a> 
+                    <div id="registrarse" class="modal2">
+                        <div class="regis-contenido">
+                            <div class="cerrar2" >
+                                <a href="#">X</a>
+                    
+                            </div>
+                            <div class="tener-cuenta"><p class="cuenta-di">¿Ya tienes una cuenta?</p></div>
+                            <p>O CREA UNA CUENTA NUEVA</p>
+                            <input type="text" placeholder="Nombre" id="nombre"><input type="text" placeholder="Apellido" id="apellido">
+                            <br>
+                            <input type="text" placeholder="Correo Electronico:ejemplo@correo.mx" id="correo">
+                            <br>
+                            <input type="text" placeholder="Teléfono" id="correo">
+                            <br>
+                            <input type="text" placeholder="Contraseña" id="correo">
+                            <br>
+                            <input type="text" placeholder="Ciudad" id="correo">
+                            <br>
+                            <input type="text" placeholder="(Opcional(Código de invitación)" id="correo">
+                            <br>
+                            <select name="" id="enterarse">
+                                <option value="como">¿Cómo te enteraste de nosotros?</option>
+                                <option value="redes">Redes sociales</option>
+                                <option value="television">Televisión</option>
+                                <option value="otro">Otro</option>
+                            </select>
+                            <br>
+                            <div class="enviar">
+                                <p class= "enviar-a">ENVIAR</p>
+                            </div>
+                        <div>
+                     </div>
+                </button>
+                   
+                <hr color="white" size="1" width="40"><h6 class="font-sec">O bien</h6><hr>
                 <button class="convertir">Conviértete en conductor</button>
             </div>
 
@@ -59,8 +114,43 @@
 
             </div>
         </section>
+        <section class="tarifa-section">
+            <h1 class="consultar-tarifa">Tarifa</h1>
+            <p class="con-tarifa">Consulta las tarifas de Labcar aquí.</p>
+            <img src="img/circulo.png" alt="" class="circulo">
+            <input id="partida" type="text" placeholder="Ingrese su punto de partida"><br>
+            <img src="img/flecha.png" alt="" class="flecha">
+            <input id="destino" type="text" placeholder="Ingrese su destino" style="text-decoration-color: white"><br>
+            <button id="ruta-tarifa">¡TRAZAR RUTA!</button>
+            <div id="geo-map"><div>
+                <iframe class="geo" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.7948118518343!2d-99.1654250500858!3d19.421269586826458!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff41d4c73813%3A0xd1c6f4fcad149f54!2sLaboratoria+M%C3%A9xico!5e0!3m2!1ses-419!2smx!4v1563680268650!5m2!1ses-419!2smx" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+            </div>
+        </section>
+        <section class="footer-section">
+            <br><br><br><br><br>
+            <img src="img/logo-blanco.png" alt="" class="logo-b">
+            <br><br>
+            <hr color="white" size="1" width="1200px">
+            <br><br>
+            <p class="lista-1">Viaja<br><br>Conduce<br><br>Ciudades<br><br>Tarifas<br><br>Entregas<br><br>Cómo funciona<br><br>Países<br><br>Seguridad<br><br></p>
+            <p class="lista-2">Oportunidades<br><br>
+                    Nuestra historia<br><br>
+                    API de LabCar<br><br>
+                    Eventos<br><br>
+                    Desarrolladores<br><br>
+                    Servicios<br><br>
+                    Laboratoria<br><br>
+                    Coders
+            <hr color="white" size="1" width="1200px" id="linea-2">
+            <p class="made">© 2017 LabCar technologies Inc.</p>
+
+
+        </section>
         
-    
+        
+        <script type="text/javascript" src="index.js"></script>
+        
     
 </body>
 </html>
