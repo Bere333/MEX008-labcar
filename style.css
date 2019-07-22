@@ -550,5 +550,41 @@ header {
     position: relative;
     bottom: 10px;
 }
+.footer-section{
+    background-color:#2F2F2F;
+    height: 40rem;
+    width: 81.5rem;
+    position: relative;
+    bottom: 30px;
+}
+.logo-b{
+    position: relative;
+    left: 50px;
+}
+.lista-1{
+  
+    font-family: 'Roboto', sans-serif;
+    color:white;
+    position: relative;
+    left: 400px;
+}
+.lista-2{
+    font-family: 'Roboto', sans-serif;
+    color:white;
+    position: relative;
+    left: 700px;
+    bottom: 320px;
+}
+#linea-2{
+    position: relative;
+    bottom: 300px;
+}
+.made{
+    font-family: 'Roboto', sans-serif;
+    color:white;
+    position: relative;
+    left: 56px;
+    bottom: 290px;
+}
 }
 
