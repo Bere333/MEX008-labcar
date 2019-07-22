@@ -307,7 +307,7 @@ header {
 
 
 .intro-usuario{
-    background-color:rgb(113, 190, 167);
+    background-color:#00B59D;
   width:600px;
   height: 500px;
   padding: 10px 20px;
@@ -350,14 +350,70 @@ header {
    z-index: 999;
    transition:all 1s;
   }
-.usuario{
-    position: relative;
-}
+
 .usuario{
     position: relative;
    left: 210px;
     display: block;
 }
-
-
+#username{
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    width: 160px;
+    position: relative;
+    left: 60px;
+    font-weight: 600;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    color:white;
+    background-color: white;
+    border-radius: 0px;
+    border: 1px solid gray;  
 }
+.dusuario{
+    position: relative;
+    left: 18px;
+    bottom: -40px;
+    width: 40px;
+    height:38px ;
+    background-color: #EDEDED;
+    border: 1px solid gray;  
+}
+.i-usuario{
+    position: relative;
+    left: 11px;
+    bottom: -8px;
+}
+.candado{
+    position: relative;
+    left: 18px;
+    bottom: -20px;
+    width: 40px;
+    height:38px ;
+    background-color: #EDEDED;
+    border: 1px solid gray; 
+}
+#password{
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    width: 160px;
+    position: relative;
+    left: 60px;
+    bottom: 20px;
+    font-weight: 600;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    color:white;
+    background-color: white;
+    border-radius: 0px;
+    border: 1px solid gray;   
+}
+.candadito{
+    position: relative;
+    left: 11px;
+    bottom: -8px;  
+}
+}
+
