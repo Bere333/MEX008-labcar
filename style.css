@@ -68,6 +68,7 @@ header {
     left: 30px;
     text-decoration: none;
     padding: 10px;
+    width: 250px;
     font-weight: 600;
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
@@ -107,7 +108,7 @@ header {
     bottom: 10px;
 }
 /*Hero: imágen de fondo*/
-.crop-img{
+.first-section{
     background-image: url("img/taxi.jpg");
     background-repeat: no-repeat;
     background-position: center;
@@ -595,6 +596,114 @@ header {
     position: relative;
     left: 56px;
     bottom: 290px;
+}
+/*MODAL: CONVERTIRSE EN CONDUCTOR*/
+.convierte-contenedor{
+    background-color:#A7A7A7;
+    width:460px;
+    height: 590px;
+    padding: 10px 20px;
+    margin: 20% auto;
+    position: relative;
+    bottom: 250px;
+    border-radius: 14px;
+}
+.modal3{
+    background-color: rgba(0,0,0,.8);
+  position:fixed;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  opacity:0;
+  pointer-events:none;
+  transition: all 1s;
+}
+#convierteConductor:target{
+    opacity:1;
+    pointer-events:auto;
+    z-index: 999;
+  }
+#x3{
+    position: relative;
+    left: 450px;
+}
+/*MODAL3:ESTILO DE INPUT*/
+#puertas, #marca, #modelo, #año, #matricula{
+    text-decoration: none;
+    padding: 10px;
+    width: 438px;
+    position: relative;
+    left: 3px;
+    bottom: -5px;
+    font-family: 'Roboto', sans-serif;
+    color:black;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid gray; 
+}
+.puertas{
+    position: relative;
+    bottom: 20px;
+}
+#puertas{
+    position: relative;
+    bottom: 30px;
+}
+.marca{
+    position: relative;
+    bottom: 40px;
+}
+#marca{
+    position: relative;
+    bottom: 50px;
+}
+.marca-1{
+    position: relative;
+    bottom: 66px;
+}
+.modelo{
+    position: relative;
+    bottom: 70px;
+}
+#modelo{
+    position: relative;
+    bottom: 80px;
+}
+.año{
+    position: relative;
+    bottom: 80px;
+}
+#año{
+    position: relative;
+    bottom: 90px;
+}
+.matricula{
+    position: relative;
+    bottom: 90px;
+}
+#matricula{
+    position: relative;
+    bottom: 100px;
+}
+.info{
+    position: relative;
+    bottom: 120px;
+}
+.enviar-info{
+    position: relative;
+    bottom: 140px;
+    left: 10px;
+    text-decoration: none;
+    padding: 10px;
+    width: 438px;
+    height: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color:white;
+    background-color: #69B8E2;
+    border-radius: 5px; 
+    border: 1px solid #69B8E2;
 }
 }
 
