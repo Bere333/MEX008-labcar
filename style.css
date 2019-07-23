@@ -7,6 +7,13 @@ display: table;
 
 
 }
+    @media (min-width: 1281px) {
+        section.mobile-fsection{
+            display: none;
+        }
+        section.mobile-S{
+            display: none;
+        }
 /*Navbar*/
 header {
     color: white;
@@ -31,7 +38,6 @@ header {
 
 }
 /*Primera página: Hero*/
-@media (min-width: 1281px) {
 .first-card{
     background-color: #f7b617;
     width: 35rem;
@@ -717,5 +723,96 @@ header {
     border: 1px solid #69B8E2;
 }
 
+}
+/*MOBILE*/
+@media only screen and (max-width: 731px) {
+    div.modal{
+        display: none;
+    }
+    div.first-card{
+        display: none;
+    }
+    ul.menu-hero{
+        display: none;
+    }
+    section.first-section{
+        display: none;
+    }
+    section.second-section{
+        display: none;
+    }
+    section.conductor-section{
+        display: none;
+    }
+    section.tarifa-section{
+        display: none;
+    }
+    section.footer-section{
+        display: none;
+    }
+    header.h-1{
+        display: none;
+    }
+    section.mobile-fsection{
+        display: block;
+        background-image: url(img/taxi.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        overflow: hidden;
+        background-position-y:-90px;
+        height: 640px;
+        width: 411px;
+    }
+    .descargar-mo{
+        position: relative;
+        left: 100px;
+        bottom: -100px;
+        background-color: #f7b617;
+        width: 330px;
+        height: 180px;
+    }
+
+    ul.menu-hero{
+        display: none;
+    }
+    .descargar{
+        position: relative;
+    left: 30px;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    background-color: white;
+    border-radius: 6px;
+    border: 2px solid white;
+    }
+    .comienza{
+        font-family: 'Roboto', sans-serif;
+        color:white; 
+        position: relative;
+        left: 20px;
+        bottom: -30px;
+    }
+    .lo-blanquito{
+        position: relative;
+        left: 80px;
+        bottom: 10px;
+    }
+    .h-2{
+        background-color: white;
+        height: 100px;
+    }
+    .mobile-S{
+        background-color: #f7b617;
+        position: relative;
+        bottom: 90px;
+        height: 640px;
+    }
+
+
+    
 }
 
