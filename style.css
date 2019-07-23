@@ -588,14 +588,25 @@ header {
 }
 #linea-2{
     position: relative;
-    bottom: 300px;
+    bottom: 380px;
 }
 .made{
     font-family: 'Roboto', sans-serif;
     color:white;
     position: relative;
     left: 56px;
-    bottom: 290px;
+    bottom: 380px;
+}
+/*FOOTER: IMAGENES DE GOOGLE*/
+.store{
+    position: relative;
+    left: 1000px;
+    bottom:500px ;
+}
+.play{
+    position: relative;
+    left: 800px;
+    bottom: 400px;
 }
 /*MODAL: CONVERTIRSE EN CONDUCTOR*/
 .convierte-contenedor{
@@ -705,5 +716,6 @@ header {
     border-radius: 5px; 
     border: 1px solid #69B8E2;
 }
+
 }
 
